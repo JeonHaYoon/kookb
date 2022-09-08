@@ -6,7 +6,6 @@ public class MethodExam3 {
 		
 		i= MethodExam3.plus (i);
 		System.out.println("i값:"+i);
-		
 	}
 
 	private static int plus(int i) {

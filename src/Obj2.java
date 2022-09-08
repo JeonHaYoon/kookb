@@ -1,9 +1,6 @@
-
 /**
  * 객체지향 프로그래밍언어
  * 
- * @author BigData18
- *
  */
 public class Obj2 {
 
@@ -18,7 +15,6 @@ public class Obj2 {
 		car1.model="BMW";
 		car1.color="빨간색";
 		car1.power=180;
-		
 		
 		
 		//객체의 속성값 출력

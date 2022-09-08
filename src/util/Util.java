@@ -4,14 +4,10 @@
  */
 
 package util;
-
 public class Util {
-
 	/**
 	 * 2단~9단까지의 구구단을 출력한다.
-	 * 
 	 */
-
 	public void getGugudan() {
 		for (int i = 2; i < 10; i++) {
 			System.out.println(" " + i + "단");
@@ -42,14 +38,12 @@ public class Util {
 			System.out.print(data + " ");
 		}
 	}
-	
+
 	/**
 	 * 값을 정렬합니다. 변수 입력해서 정렬
 	 */
 
 	public void sort(int[] arr) {
-//		int[] arr = { 3, 4, 2, 1, 5 };
-		
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
 				if (arr[i] < arr[j]) {
@@ -67,26 +61,20 @@ public class Util {
 
 	/**
 	 * 학점출력
-	 * @param myJumsu
 	 */
-	
+
 	public void mySungjuk(int myJumsu) {
-		
-//		int myJumsu=55;
-		
-		if(myJumsu>=90)
+		if (myJumsu >= 90)
 			System.out.println("A");
-		else if(myJumsu>=80)
+		else if (myJumsu >= 80)
 			System.out.println("B");
-		else if(myJumsu>=70)
+		else if (myJumsu >= 70)
 			System.out.println("C");
-		else if(myJumsu>=60)
+		else if (myJumsu >= 60)
 			System.out.println("D");
-		else System.out.println("F");
-	
+		else
+			System.out.println("F");
+
 	}
-	
-	
-	
-	
+
 }

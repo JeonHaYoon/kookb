@@ -16,8 +16,6 @@ public class Car {
 		System.out.println("디폴트 생성자는 자동으로 만들어진다.");
 	}
 
-
-
 	public Car(String model, String color, int power) {
 		this.model=model;
 		this.color=color;

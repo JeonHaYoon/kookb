@@ -4,8 +4,5 @@
  *
  */
 public class Star extends Figure {
-
-	
-	
 //	this.getClass().getName()
 }

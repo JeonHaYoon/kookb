@@ -5,7 +5,5 @@
  */
 public class Square extends Figure{
 
-	
-	
 //	this.getClass().getName()
 }

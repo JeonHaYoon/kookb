@@ -14,9 +14,9 @@ public class Lotto45 {
 				row +=num+",";
 					
 			}
-			//시작
-			row = 	row.substring(0, row.lastIndexOf(","));
-			
+			//시작, 끝에 ,없애기
+//			row = 	row.substring(0, row.lastIndexOf(","));
+			row= row.substring(0,row.length()-1);
 			//끝
 			System.out.printf("%s",row);	
 			System.out.println();

@@ -14,12 +14,14 @@ public class MethodExam5 {
 		
 		// @@변수선언 후 메서드 출력  
 //		정렬
-//		int[] arr = { 6, 2, 11, 1, 5, 13, 8 };
-//		util.sort(arr);
+		int[] arr = { 6, 2, 11, 1, 5, 13, 8 };
+		util.sort(arr);
+		
+		System.out.println();
 		
 //		성적
 //		배열이 아닌 int데이터는 선언없이 괄호안에 값을 그냥 넣어도 가능
-//		int myJumsu=100;
+		int myJumsu=100;
 		util.mySungjuk(70);
 		
 	}

@@ -5,6 +5,5 @@
  */
 public class Triangle extends Figure{
 
-	
 //	this.getClass().getName()
 }
