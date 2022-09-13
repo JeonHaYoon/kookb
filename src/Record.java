@@ -1,7 +1,5 @@
 /**
- * 
  * 성적 프로그램 ->obj6
- * @author BigData18
  *
  */
 public class Record {
@@ -24,6 +22,4 @@ public class Record {
 	public String toString() {
 		return "Record [name=" + name + ", kor=" + kor + ", eng=" + eng + ", code=" + code + "]";
 	}
-	
-	
 }

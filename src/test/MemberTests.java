@@ -1,5 +1,6 @@
 package test;
 
+import java.util.Iterator;
 import java.util.List;
 
 import domain.MemberDTO;
@@ -12,7 +13,7 @@ public class MemberTests {
 //		create();   //회원등록
 //		read();  	//회원조회
 //		update(); // 회원정보변경
-		delete();
+//		delete();
 		read();
 	}
 
@@ -39,9 +40,13 @@ public class MemberTests {
 
 		MemberServiceImpl service = new MemberServiceImpl();
 		List<MemberVO> list = service.read();
-		for (int i = 0; i < list.size(); i++)
-			System.out.println(list.get(i));
-
+		
+		//이터레이터로 변경해서 출력
+		Iterator<MemberVO> it=list.iterator();
+		while(it.hasNext()) {
+			MemberVO vo= it.next();
+			System.out.println(vo);
+		}
 	}
 
 	private static void create() {

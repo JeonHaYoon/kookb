@@ -59,7 +59,7 @@ public class MemberMapper {
 		Connection con = null;
 		Statement st = null;
 		ResultSet rs = null;
-		ArrayList<MemberVO> list = new ArrayList<MemberVO>();    //값이 여러개이므로 배열을 사용해야한다.
+		List<MemberVO> list = new ArrayList<MemberVO>();    //값이 여러개이므로 배열을 사용해야한다.
 
 		try {
 
